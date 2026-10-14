@@ -1,0 +1,28 @@
+# Python / environments
+venv/
+venv37/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets - never commit
+config.py
+.env
+
+# Personal / biometric data generated at runtime
+dataset/
+trainer/
+trainer.yml
+UserDetails.csv
+frame.png
+*.txt
+!requirements.txt
+
+# Large model file (download separately, see README)
+shape_predictor_68_face_landmarks.dat
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

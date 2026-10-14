@@ -1,0 +1,10 @@
+# Tested on Python 3.7 (see README for Windows install notes)
+opencv-contrib-python
+numpy
+dlib
+PyQt5==5.15.4
+PyQt5-sip==12.9.0
+Pillow
+pandas
+telepot
+playsound==1.2.2
